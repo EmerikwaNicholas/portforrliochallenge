@@ -1,0 +1,330 @@
+body {
+    background-color: rgb(68, 28, 141);
+    margin: 1px bold;
+    padding: 1px;
+  
+}
+
+ul {
+    list-style: none;
+
+}
+a {
+    text-decoration: none;
+
+}
+
+section {
+    width: 50%;
+    height: 95vh;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+}
+
+nav ul {
+    display:flex
+}
+
+nav ul li a {
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 22px;
+}
+
+.active {
+    font-weight: bold;
+    color: #2b2a2a;
+}
+.text-container p:nth-child(1) {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+
+.text-container p:nth-child(2) {
+    font-weight: bold;
+    color: #1a1a1a;
+    letter-spacing: 1px;
+    font-size: 60px;
+
+
+    }
+.text-container p:nth-child(3) {
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 30px;
+        line-height: 0px;
+    }
+
+    .text-container p {
+        line-height: 0px;
+        margin: 45px 0px 25px;
+    }
+
+    .text-container {
+        position: absolute;
+        left: 13%;
+        top: 20%;
+        bottom: 20px;
+
+    }
+
+ .image {
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-right: 30px;
+    object-position: center; 
+}
+
+.text-container button {
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px 10px;
+    outline: none;
+}
+
+.hire-btn {
+    border: 2px solid #373636;
+    color: #373636;
+}
+
+.down-cv {
+    background-color: chartreuse;
+    color: red;
+    border: none;
+
+}
+
+button:active {
+    transform: scale(1.1);
+}
+
+.model {
+    height: 560px;
+    position: absolute;
+    bottom: 40px;
+    left: 70%;
+    transform: translateX(-70%);
+}
+
+.about-container {
+     width: 85%;
+     height: 400px;
+     background-color: #FFFFFF;
+     border-radius: 20px;
+     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+     display: flex;
+     margin: -7% auto 20px auto;
+     position: relative;
+     justify-content: space-between;
+     align-items: center;
+     top: 20px;
+}
+.about-container img{
+    height: 250px;
+
+}
+.about-text {
+    width: 550px;
+
+}
+.about-text p:nth-child(1){
+    color: #403e3e;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+
+}
+.about-text p:nth-child(2){
+    color: #3e3d3d;
+    font-size: 13px;
+    font-family: monospace;
+    font-weight: bold;
+    line-height: 5px;
+
+}
+    .about-text p:nth-child(3) {
+        color: #7e7d7d;
+        font-family: monospace;
+        font-size: 16px;
+
+}
+.about-text button{
+    width: 120px;
+    height: 40px;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    font-family: monospace;
+    background-color: #262525;
+}
+.services {
+    height: 500px;
+    background-color: #FFFFFF;
+}
+.services-text p:nth-child(1){
+    font-family: monospace;
+    font-weight: bold;
+    color: #3e3d3d;
+    font-size: 30px;
+    line-height: 0px;
+}
+.services-text p:nth-child(2) {
+    font-family: monospace;
+    font-weight: bold;
+    color: #3e3d3d;
+    font-size: 15px;
+    line-height: 0px;
+}
+.services-text p:nth-child(3){
+    font-family: monospace;
+    color: #7e7d7d;
+}
+.services-text{
+    width: 500px;
+    margin: 50px 0px;
+}
+.box-1,.box-2,.box-3 {
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box-container {
+    display: flex;
+    justify-content: space-between;
+}
+.box-1 span,
+.box-2 span,
+.box-3 span {
+    width: 40px;
+    border-radius: 40px;
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 5px;
+}
+.box-1 p:nth-child(1),
+.box-1 p:nth-child(1),
+.box-1 p:nth-child(1){
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size: 23px;
+    
+}
+
+.box-1 p:nth-child(2),
+.box-1 p:nth-child(2),
+.box-1 p:nth-child(2){
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size: 23px;
+
+}
+.box-1 p:nth-child(3),
+.box-1 p:nth-child(3),
+.box-1 p:nth-child(3) {
+    color: #8f8f8f;
+    font-family: monospace;
+    width: 230px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}
+.box-1 button,
+.box-2 button,
+.box-3 button {
+    width: 100px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+
+}
+.contact-me {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-me p{
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: monospace;
+    font-weight: bold;
+    border-bottom: 2px solid #FFFFFF;
+}
+.contact-me button{
+    width: 200px;
+    height: 40px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.footer{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+
+}
+.social-icons a:hover{
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.6s;
+
+}
+ 
